@@ -1,0 +1,77 @@
+/* default styling */
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* these are semantic tags which helps to avoid bulky code created using div and helps reducing of making a lot of div classes */
+header h1{
+    font-weight: 400;
+    
+}
+
+nav{  /*semantic tag*/
+    position: relative;  /* positioning */
+    top: 1rem;  /* 1 rem is equal to the default text size of the website */
+    right: 3rem;
+    width: 20rem;
+    align-content: center;
+}
+
+header{
+    display: flex; 
+    justify-content:space-between;
+    margin: 0 3rem ;  /*left right margin*/ 
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none; /* lthis is too tyle the list i.e to provide disc , number etc*/
+}
+
+.showcase_img{
+    /* viewport is a responsive it will arrange it self accoring to browser size */
+    /* here 95 vw means 95% of the total width of the browser */
+    width:95vw;  /* vw will set the view port width */
+    margin: 1rem;
+}
+
+article{
+    display: flex;
+    margin: 1.5rem;
+}
+
+
+.content{
+    text-align: center;  /* this tag is used to align the left right center etc*/
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size:1.5rem ;
+}
+
+h1{
+    font-weight: 600;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center;  /* flex property*/
+    align-items: center; /* flex property */
+
+}
+
+a{
+    text-decoration: none;
+    color:black ;
+}
+
+a:hover{  /* this is the default properties provided by CSS it comes under pseudo code */
+    color:red;
+}
